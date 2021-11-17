@@ -19,7 +19,6 @@ class GalleryApproveSerializer(serializers.ModelSerializer):
     class Meta:
         model = Gallery
         fields = ['approved_at']
-        read_only_fields = ['user_id']
 
     def update(self, instance, validated_data):
         instance.approved_at = datetime.now()

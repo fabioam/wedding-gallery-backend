@@ -46,7 +46,7 @@ Destroying test database for alias 'default'...
 
 ## S3 integration
 
-To use S3 integration, you should configure your IAM Keys in the settings.py file
+To use S3 integration, you should configure your IAM Keys in the ```settings.py``` file
 
 
 ## Requirements:
