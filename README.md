@@ -4,7 +4,7 @@ Basic endpoints to receive an image then send to moderation. Once approved, the 
 
 ## Installation
 
-* Copy ```wedding/settings.py.dist``` to ```wedding/settings.py``` then update the variables to your environment. 
+* Set the environment variables requested in```wedding/settings.py```  
 
 * Then create a virtual env and install all the libraries:
 
