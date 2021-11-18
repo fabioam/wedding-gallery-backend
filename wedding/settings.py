@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'drf_yasg',
-    'sslserver',
     'django_extensions',
     'corsheaders',
     'storages',
