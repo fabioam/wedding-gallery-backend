@@ -94,16 +94,16 @@ DATABASES = {
         }
 }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'wedding' if not os.getenv('DB_NAME') else os.getenv('DB_NAME'),
-        'USER': 'root' if not os.getenv('DB_USER') else os.getenv('DB_USER'),
-        'PASSWORD': '' if not os.getenv('DB_PASSWORD') else os.getenv('DB_PASSWORD'),
-        'HOST': '127.0.0.1' if not os.getenv('DB_HOST') else os.getenv('DB_HOST'),
-        'PORT': 3306,
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'wedding' if not os.getenv('DB_NAME') else os.getenv('DB_NAME'),
+#         'USER': 'root' if not os.getenv('DB_USER') else os.getenv('DB_USER'),
+#         'PASSWORD': '' if not os.getenv('DB_PASSWORD') else os.getenv('DB_PASSWORD'),
+#         'HOST': '127.0.0.1' if not os.getenv('DB_HOST') else os.getenv('DB_HOST'),
+#         'PORT': 3306,
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
