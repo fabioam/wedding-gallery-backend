@@ -4,7 +4,15 @@ Basic endpoints to receive an image then send to moderation. Once approved, the 
 
 ## Installation
 
-* Set the environment variables requested in```wedding/settings.py```  
+* Set the environment variables as the example below as requested in```wedding/settings.py``` and ```wedding/urls.py```:
+
+```
+CORS_ALLOWED_ORIGINS=http://127.0.0.1:3000 (required)
+ALLOWED_HOSTS=127.0.0.1 (required if DEBUG is enabled)
+AWS_ACCESS_KEY_ID=(required)
+AWS_SECRET_ACCESS_KEY=(required)
+AWS_STORAGE_BUCKET_NAME=(required)
+```  
 
 * Then create a virtual env and install all the libraries:
 
